@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lishe</string>
+    <string name="videos">Video</string>
+    <string name="print_materials">Machapisho</string>
+    <string name="questions_and_answers">Maswali na Majibu</string>
+    <string name="female">Mwanamke</string>
+    <string name="male">Mwanaume</string>
+    <string name="nutrition_facts">Dondoo za lishe</string>
+    <string name="BMI_calculator">Hali ya lishe</string>
+    <string name="weight">Uzito wa kwa kilo</string>
+    <string name="height">Urefu wako kwa mita</string>
+    <string name="gender">Jinsia</string>
+    <string name="your_bmi_is">HALI YAKO YA LISHE NI</string>
+    <string name="calculatebmi">HALI YA LISHE</string>
+</resources>
