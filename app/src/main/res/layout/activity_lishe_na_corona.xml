@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LisheNaCorona">
+    tools:context=".LisheNaCorona"
+    android:background="@drawable/image_1">
 
     <!--Viewpager to show images-->
     <androidx.viewpager.widget.ViewPager

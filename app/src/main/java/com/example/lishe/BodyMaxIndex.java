@@ -2,8 +2,10 @@ package com.example.lishe;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -57,6 +59,7 @@ public class BodyMaxIndex extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                hideSoftKeyboard(BodyMaxIndex.this);
                 // Test to see if Gender has been selected
                 int selectedId = radio_group.getCheckedRadioButtonId();
                 if (selectedId == -1) {
@@ -122,6 +125,19 @@ public class BodyMaxIndex extends AppCompatActivity {
                     edit_bmiyako.setText(String.valueOf(decfor.format(e3)));
                 }
 
+            }
+
+            // CODE TO COLLAPSE KEYBOARD ONCE BMI BUTTON IS CLICKED
+            public void hideSoftKeyboard(Activity activity) {
+                InputMethodManager inputMethodManager =
+                        (InputMethodManager) activity.getSystemService(
+                                Activity.INPUT_METHOD_SERVICE);
+                if(inputMethodManager.isAcceptingText()){
+                    inputMethodManager.hideSoftInputFromWindow(
+                            activity.getCurrentFocus().getWindowToken(),
+                            0
+                    );
+                }
             }
         });
     }

@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".UmuhimuTangawizi">
+    tools:context=".UmuhimuTangawizi"
+    android:background="@drawable/image_1">
 
     <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
         android:id="@+id/youtube_mlokamilianimation"

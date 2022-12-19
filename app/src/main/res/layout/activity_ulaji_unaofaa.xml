@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    tools:context=".UlajiUnaofaa">
+    tools:context=".UlajiUnaofaa"
+    android:background="@drawable/image_1">
 
     <androidx.viewpager.widget.ViewPager
         android:layout_width="wrap_content"
