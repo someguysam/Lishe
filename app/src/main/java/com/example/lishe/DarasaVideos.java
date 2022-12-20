@@ -24,11 +24,11 @@ public class DarasaVideos extends AppCompatActivity {
 
         ArrayList<String> arrayList=new ArrayList<>();
 
-        arrayList.add("Mlo Kamili (Animation)");
-        arrayList.add("Mlo Kamili Kwaya");
-        arrayList.add("Mlo Kamili Singeli");
-        arrayList.add("Umuhimu wa Tangawizi");
-        arrayList.add("Umuhimu wa Matunda");
+        arrayList.add(getString(R.string.mlo_kamili_animation));
+        arrayList.add(getString(R.string.mlo_kamili_kwaya));
+        arrayList.add(getString(R.string.mlo_kamili_singeli));
+        arrayList.add(getString(R.string.umuhimu_wa_tangawizi));
+        arrayList.add(getString(R.string.umuhimu_wa_matunda));
 
         ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1,arrayList);
         listView.setAdapter(arrayAdapter);

@@ -13,4 +13,21 @@
     <string name="gender">Jinsia</string>
     <string name="your_bmi_is">HALI YAKO YA LISHE NI</string>
     <string name="calculatebmi">HALI YA LISHE</string>
+    <string name="selected_language">Chagua Lugha</string>
+    <string name="ulaji_unaofaa_">Ulaji unaofaa</string>
+    <string name="nutrition_and_covid19">Lishe na UVIKO-19</string>
+    <string name="unyonyeshaji_na_covid19">Unyonyeshaji kipindi cha UVIKO-19</string>
+    <string name="ulaji_unaofaa">Ulaji unaofaa</string>
+    <string name="makundi_ya_chakula">Makundi ya Chakula</string>
+    <string name="umuhimu_wa_matunda">Umuhimu wa Matunda</string>
+    <string name="umuhimu_wa_tangawizi">Umuhimu wa Tangawizi</string>
+    <string name="mlo_kamili_singeli">Mlo Kamili Singeli</string>
+    <string name="mlo_kamili_kwaya">Mlo Kamili Kwaya</string>
+    <string name="mlo_kamili_animation">Mlo Kamili katuni</string>
+    <string name="jaza_urefu_wako_hapa">Jaza urefu wako hapa</string>
+    <string name="jaza_uzito_wako_hapa">Jaza uzito wako hapa</string>
+    <string name="jaza_uzito_wako">Jaza uzito wako</string>
+    <string name="jaza_urefu_wako">Jaza urefu wako</string>
+    <string name="urefu">Urefu</string>
+    <string name="uzito">Uzito</string>
 </resources>

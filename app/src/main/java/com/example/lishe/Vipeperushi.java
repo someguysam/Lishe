@@ -27,9 +27,9 @@ public class Vipeperushi extends AppCompatActivity {
 
         ArrayList<String> arrayList3=new ArrayList<>();
 
-        arrayList3.add("Food Groups");
-        arrayList3.add("Recomended Eating Chart");
-        arrayList3.add("Breastfeeding in times of COVID-19");
+        arrayList3.add(getString(R.string.makundi_ya_chakula));
+        arrayList3.add(getString(R.string.ulaji_unaofaa));
+        arrayList3.add(getString(R.string.unyonyeshaji_na_covid19));
 
 
         ArrayAdapter arrayAdapter3 = new ArrayAdapter(this, android.R.layout.simple_list_item_1,arrayList3);

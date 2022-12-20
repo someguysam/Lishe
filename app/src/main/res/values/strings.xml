@@ -26,14 +26,14 @@
     <string name="madin_joto">madini_joto_pic</string>
     <string name="unyonyeshaj">unyonyeshaji_pic</string>
     <string name="place_diet_plan_counter">place diet plan counter</string>
-    <string name="uzito">Uzito</string>
+    <string name="uzito">Weight</string>
     <string name="calculatebmi">BMI</string>
-    <string name="urefu">Urefu</string>
+    <string name="urefu">Height</string>
     <string name="your_bmi_is">YOUR BMI IS</string>
-    <string name="jaza_urefu_wako">jaza urefu wako</string>
-    <string name="jaza_uzito_wako">jaza uzito wako</string>
-    <string name="jaza_uzito_wako_hapa" />
-    <string name="jaza_urefu_wako_hapa" />
+    <string name="jaza_urefu_wako">Enter your height</string>
+    <string name="jaza_uzito_wako">Enter your weight</string>
+    <string name="jaza_uzito_wako_hapa" >Enter your weight here</string>
+    <string name="jaza_urefu_wako_hapa" >Enter your height here</string>
     <string name="gender">Gender</string>
     <string name="height">Your Height in Metres</string>
     <string name="weight">Your Weight in Kilograms</string>
@@ -45,4 +45,15 @@
     <string name="questions_and_answers">Questions and Answers</string>
     <string name="print_materials">Print Materials</string>
     <string name="videos">Videos</string>
+    <string name="selected_language">Choose a Language</string>
+    <string name="mlo_kamili_animation">Balanced diet animation</string>
+    <string name="mlo_kamili_kwaya">Balanced diet choir song</string>
+    <string name="mlo_kamili_singeli">Balanced diet singeli song</string>
+    <string name="umuhimu_wa_tangawizi">Advantages of ginger</string>
+    <string name="umuhimu_wa_matunda">Advantages of fruits</string>
+    <string name="makundi_ya_chakula">Food Groups</string>
+    <string name="ulaji_unaofaa">Recommended Eating Chart</string>
+    <string name="unyonyeshaji_na_covid19">Breastfeeding in times of COVID-19</string>
+    <string name="nutrition_and_covid19">Nutrition and COVID-19</string>
+    <string name="ulaji_unaofaa_">Recommended Eating</string>
 </resources>

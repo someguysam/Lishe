@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
@@ -54,7 +55,8 @@ public class BodyMaxIndex extends AppCompatActivity {
                 });
 
 
-        /*CODE FOR BMI CALCULATIO BUTTON BUTTON*/
+
+        /*CODE FOR BMI CALCULATION BUTTON BUTTON*/
         button_calculatebmi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

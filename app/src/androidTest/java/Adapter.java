@@ -13,7 +13,7 @@ public class Adapter extends PagerAdapter {
 
     private Context ctx;
     private int[] ImageArray = new int[] {R.drawable.maswali_na_majibu_01, R.drawable.maswali_na_majibu_02, R.drawable.maswali_na_majibu_03, R.drawable.maswali_na_majibu_04, R.drawable.maswali_na_majibu_05, R.drawable.maswali_na_majibu_06, R.drawable.maswali_na_majibu_07,  R.drawable.maswali_na_majibu_08, R.drawable.maswali_na_majibu_09, R.drawable.maswali_na_majibu_10, R.drawable.maswali_na_majibu_11, R.drawable.maswali_na_majibu_12,  R.drawable.maswali_na_majibu_13};
-    Adapter(Context context) {ctx = context}
+    Adapter(Context context) {ctx = context;}
 
     @Override
     public int getCount() {

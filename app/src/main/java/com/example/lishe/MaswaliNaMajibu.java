@@ -23,8 +23,8 @@ public class MaswaliNaMajibu extends AppCompatActivity {
 
         ArrayList<String> arrayList2=new ArrayList<>();
 
-        arrayList2.add("Ulaji unaofaa");
-        arrayList2.add("Lishe na Corona");
+        arrayList2.add(getString(R.string.ulaji_unaofaa_));
+        arrayList2.add(getString(R.string.nutrition_and_covid19));
         //arrayList2.add("Episode 3");
         //arrayList2.add("Episode 4");
         //arrayList2.add("Episode 5");
